@@ -1,41 +1,40 @@
-import AUTOMATION from "./Assets/Projects/3automation.jpg";
-import COAST from "./Assets/Projects/coast.jpg";
-import DROPSHIP from "./Assets/Projects/dropship.jpg";
-import GOOD_FOOD_DISCOUNTS from "./Assets/Projects/goodFoodDiscounts.png";
-import GUAMEDIA from "./Assets/Projects/guamedia.jpg";
-import HSP from "./Assets/Projects/hsp.png";
-import COSMOS from "./Assets/Projects/cosmos.jpg";
-import TECHSPEC from "./Assets/Projects/techspec.png";
-import TRAVELWELL from "./Assets/Projects/travelwell.png";
+import STUDENT from "./Assets/Projects/react-img1.jpg";
+import LIST from "./Assets/Projects/js-img.jpg";
+import GUAMEDIA from "./Assets/Projects/node-img.jpg";
+import ECOM from "./Assets/Projects/html-img.jpg";
+import TECHSPEC from "./Assets/Projects/firebase-img.jpg";
+import PORTFOLIO from "./Assets/Projects/css-img.jpg";
+
+
 
 
 export const PROJECTS = [
   {
-    image: COSMOS,
-    name: "Micorsoft Azure Cosmos DB",
-    technologyUsed: "ReactJs, Javascript, Redux, knockout.js, Jest",
-    description: "Azure Cosmos DB is Microsoft's proprietary globally distributed, multi-model database service 'for managing data at planet-scale' Azure Cosmos DB is a fully managed NoSQL database for modern app development. Single-digit millisecond response times, and automatic and instant scalability, guarantee speed at any scale.",
-    url: "https://cosmos.azure.com/",
+    image: ECOM,
+    name: "E-commerce shopping Website",
+    technologyUsed: "ReactJs, Javascript, Html, Css.Bootstrap, Jest",
+    description: "A website that allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location. Through an e-commerce website, a business can process orders, accept payments, manage shipping and logistics, and provide customer service",
+    url: "https://mailchimp.com/en-gb/marketing-glossary/ecommerce-website/",
   },
   {
-    image: TRAVELWELL,
-    name: "travlwell.com",
-    technologyUsed: "Shopify, React, typescript, polaris, GraphQL",
-    description: "Custom Luggage Tags and Passport Holders engraved with everywhere you've traveled and everywhere you will travel in the future.",
-    url: "https://travlwell.com/",
+    image: PORTFOLIO,
+    name: "Portfolio Website",
+    technologyUsed: "ReactJs, Javascript, Html, Css.Bootstrap,",
+    description: "An online portfolio (may also be called a digital portfolio or e-portfolio) is an online representation of work you have created as well as your skills and experiences. It could be a website blog or even a video channel.",
+    url: "https://careers.tufts.edu/resources/what-is-an-online-portfolio/",
   },
   {
-    image: COAST,
-    name: "Coast",
-    technologyUsed: "ReactNative, Javascript, Redux",
+    image: LIST,
+    name: "To Do App",
+    technologyUsed: "ReactJs, Javascript, Html, Css.Bootstrap, Firebase",
     description: "Team collaboration mobile app and online services like slack Message people and groups without sharing phone numbers, communicate with managers and staff all in one place. and discuss or assign tasks to get stuff done",
     url: "https://play.google.com/store/apps/details?id=com.fomo.android.app",
   },
   {
-    image: AUTOMATION,
-    name: "3automation.com (RPA)",
+    image: STUDENT,
+    name: "STUDENT POFILE WEBSITE",
     technologyUsed: "ReactJs, Typescript, Redux",
-    description: "The next-gen Robotic Process Automation (#RPA) platform for retail and telecom domains. The ultimate automation platform for your Shopify, Email, E- commerce shop",
+    description: "Press the enter key on your keyboard, the following screen.Type in your registration number as the username, type in your password, then, press the enter key or click on the login button, the following will screen.",
     url: "https://www.3automation.com/",
   },
   {
@@ -52,46 +51,22 @@ export const PROJECTS = [
     description: "TechSpec is e-commerce web app. User can compare his product and purchange. This had a dashboard web app which had the data of orders placed and type of user.",
     url: "",
   },
-  {
-    image: HSP,
-    name: "HSP (Health Solution Plus)",
-    technologyUsed: "ReactJs, Javascript, Redux",
-    description: "This is a Healthcare sector project which would be developed as replica of a desktop application. My responsibilities in this project are to develop UI, perform searching of medical codes and categories, addition/updation of codes and categories.",
-    url: "",
-  },
-  {
-    image: DROPSHIP,
-    name: "DropShip Shopify App",
-    technologyUsed: "Shopify, React, typescript, polaris, GraphQL, Nodejs, Koajs",
-    description: "It is customized clothes shopify app which fetch order from store and give option to customize product and send detail to store owner. Also maintain tracking etc of product.",
-    url: "",
-  },
-  {
-    image: GOOD_FOOD_DISCOUNTS,
-    name: "GoodFoodDiscounts",
-    technologyUsed: "ReactNative, Javascript, Redux",
-    description: "Good food discouts app is similar like swiggy. Food and hotel can be searched and can be order. Even has facility to add coupan. You can add food in favourite list.",
-    url: "",
-  },
-];
+  
+  ];
 
 export const SKILLS = [
-  { name: "ReactJs", initialRating: 4 },
-  { name: "React-Native", initialRating: 4 },
+  { name: "ReactJs", initialRating: 5 },
   { name: "JavaScript", initialRating: 4 },
   { name: "Redux", initialRating: 4 },
-  { name: "Shopify/Reactjs", initialRating: 4 },
+  { name: "React-Native", initialRating: 3 },
   { name: "Nodejs", initialRating: 3 },
-  { name: "Koajs", initialRating: 3 },
   { name: "Html", initialRating: 4 },
   { name: "CSS", initialRating: 4 },
   { name: "Unit-Testing(Jest)", initialRating: 3 },
-  { name: "TypeScript", initialRating: 4 },
-  { name: "Graphql", initialRating: 4 },
-  { name: "Apollo", initialRating: 4 },
-  { name: "AntD | ReactStrap | Material UI", initialRating: 4 },
-  { name: "Shopify Polaris", initialRating: 4 },
+  { name: "Vercel", initialRating: 4 },
   { name: "Git", initialRating: 4 },
+  { name: "Natlify", initialRating: 4 },
+  { name: "Firebase", initialRating: 3 },
 ];
 
-export const TOOLS = ["Visual Studio Code", "Git", "Chrome DevTools", "Npm (Node Package Manager)", "Atom", "Sublime Text", "Linux", "Heroku", "Postman"]
+export const TOOLS = ["Visual Studio Code", "Git", "Chrome DevTools", "Npm (Node Package Manager)", "Firebase"]

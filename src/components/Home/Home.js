@@ -1,11 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/sunil.jpg";
+import myImg from "../../Assets/ND.jpg";
 import SocialMedia from "../SocialMedia";
 import TypeWriter from "./TypeWriter";
 
 function Home() {
+  
   return (
+  <div>
     <section>
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
@@ -20,23 +22,30 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> Sunil Yadav</strong>
+                <strong className="main-name"> Nnamdi Raymond</strong>
               </h1>
+              <h3> Web Developer | Computer scientist</h3>
 
               <p className="heading-description blockquote">
-                I am passionate about using Javascript and Animation Libraries
-                to create awesome user experiences. With over five years of
-                experience developing web applications using the latest
-                front-end and back-end technologies.
+                A highly skilled and movtivated web developer who deliver best quality and scalable software for business.
               </p>
 
               <div className="heading-type">
                 <TypeWriter />
+
+                  <div className="button-key">
+                    <button className="btn btn-primary">
+                    <button>Download Cv</button>
+                    <span className="spinner-border spinner-border-sm"></span>
+                    </button>
+                  </div>
               </div>
             </Col>
 
             <Col md={5}>
-              <img src={myImg} className="profile-pic" alt="avatar" />
+              <div className="img">
+                <img src={myImg} className="profile-pic" alt="handle" />
+              </div>
             </Col>
           </Row>
         </Container>
@@ -51,14 +60,17 @@ function Home() {
                 Whether you want to get in touch, or talk about a project
                 collaboration.
                 <br />
+              
                 <strong>Feel free to connect with me</strong>
-              </p>
+                </p>
+              
               <SocialMedia />
             </Col>
           </Row>
         </Container>
       </Container>
     </section>
+  </div>
   );
 }
 

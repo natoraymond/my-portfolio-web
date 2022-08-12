@@ -19,7 +19,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              <strong className="purple">About Me</strong>
+              <strong className="purple">About Me</strong> <hr/>
             </h1>
             <Aboutcard />
           </Col>
@@ -30,12 +30,12 @@ function About() {
         <Row className="skill-tools-wrapper">
           <Col className="skill-wrapper">
             <h1 className="project-heading">
-              Professional <strong className="purple">Skillset </strong>
+              Professional <strong className="purple">SKILLs </strong>
             </h1>
             {SKILLS.map((skill, index) => (
               <Techstack
                 name={skill.name}
-                initialRating={skill.initialRating}
+                // initialRating={skill.initialRating}
                 key={index}
               />
             ))}
